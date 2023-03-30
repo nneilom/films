@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+p , h5 {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.users {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 600px;
+    padding-top: 80px;
+}
+
+.user-n {
+    width: 180px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: start;
+    padding: 10px 20px;
+}
+img{
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.slider {
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+h5{
+    padding-top: 20px;
+    text-align: start;
+    color: white;
+}
+p {
+    padding-top: 10px;
+    color: brown;
+} 
+.slide_img {
+    border-radius: 0;
+}
+
+
